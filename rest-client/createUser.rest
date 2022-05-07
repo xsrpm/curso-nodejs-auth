@@ -1,0 +1,8 @@
+POST {{API_URL}}/api/v1/users
+Content-Type: application/json
+
+{
+  "email":"superadmin@gmail.com",
+  "password":"12345678",
+  "role":"admin"
+}

@@ -30,3 +30,8 @@ mkdir postgres_data
 
 
 https://api.escuelajs.co/docs/
+
+1-step - setup inicial del proyecto
+2-step - check api key (middleware de verificación)
+3-step - implement hash (scripts de hash y compare con bcrypt)
+4-step - implementando hashing para usuarios

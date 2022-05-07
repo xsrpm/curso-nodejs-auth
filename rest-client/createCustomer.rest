@@ -1,0 +1,12 @@
+POST {{API_URL}}/api/v1/customers
+Content-Type: application/json
+
+{
+  "name":"Valentina",
+  "lastName":"Molina",
+  "phone":"sdsd",
+  "user":{
+    "email":"valentina@gmail.com",
+    "password":"12121212"
+  }
+}
