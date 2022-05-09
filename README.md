@@ -35,3 +35,6 @@ https://api.escuelajs.co/docs/
 5-step - Implementando login con Passport.js
   https://www.npmjs.com/package/passport
   https://www.passportjs.org/packages/passport-local/
+6-step - firmar y verificar token
+  https://datatracker.ietf.org/doc/html/rfc7519#section-4
+7-step - Generar JWT en el servicio
