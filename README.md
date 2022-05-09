@@ -38,3 +38,4 @@ https://api.escuelajs.co/docs/
 6-step - firmar y verificar token
   https://datatracker.ietf.org/doc/html/rfc7519#section-4
 7-step - Generar JWT en el servicio
+8-step - Protección de rutas
