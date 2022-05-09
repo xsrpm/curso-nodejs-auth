@@ -1,8 +1,5 @@
 ## Pasos para levantar el proyecto
 
-### Crear carpeta mirror de base de datos en al raiz del proyecto:
-mkdir postgres_data
-
 ### Iniciar contenedores
     docker-compose up -d postgres
     docker-compose up -d pgadmin
