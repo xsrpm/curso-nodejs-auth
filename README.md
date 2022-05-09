@@ -35,3 +35,6 @@ https://api.escuelajs.co/docs/
 2-step - check api key (middleware de verificación)
 3-step - implement hash (scripts de hash y compare con bcrypt)
 4-step - implementando hashing para usuarios
+5-step - Implementando login con Passport.js
+  https://www.npmjs.com/package/passport
+  https://www.passportjs.org/packages/passport-local/
