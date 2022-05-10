@@ -1,0 +1,6 @@
+POST {{API_URL}}/api/v1/orders/
+Content-Type: application/json
+
+{
+  "customerId":"1"
+}

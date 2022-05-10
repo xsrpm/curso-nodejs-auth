@@ -1,0 +1,2 @@
+GET {{API_URL}}/api/v1/profile/my-orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY1MjIwOTMwMn0.DYXIQqbyiSzjUG4chBwrJFLCupUgf092AQAJN9lpTDI

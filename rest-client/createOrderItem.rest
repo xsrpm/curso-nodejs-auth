@@ -1,0 +1,8 @@
+POST {{API_URL}}/api/v1/orders/add-item
+Content-Type: application/json
+
+{
+  "orderId":1,
+  "productId":3,
+  "amount":3
+}
