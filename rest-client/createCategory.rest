@@ -1,8 +1,8 @@
 POST {{API_URL}}/api/v1/categories
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY1MjEzOTYzN30.lyXpNZsvMeuAA70MDUY4UywRcAjYKUiCKbCJdIpbz0Q
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY1MjE3Nzk0Mn0.jdXvjQlhEqgxHa88BDRan2ISuyAq5-QJ7h0U9i1ApF0
 
 {
-  "name": "Category 1",
+  "name": "Category 2",
   "image": "https://placeimg.com/640/480/"
 }

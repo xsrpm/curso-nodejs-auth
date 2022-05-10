@@ -1,0 +1,7 @@
+POST {{API_URL}}/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email":"valentina@gmail.com",
+  "password":"12121212"
+}

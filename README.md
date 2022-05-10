@@ -38,4 +38,5 @@ https://api.escuelajs.co/docs/
 6-step - firmar y verificar token
   https://datatracker.ietf.org/doc/html/rfc7519#section-4
 7-step - Generar JWT en el servicio
-8-step - Protección de rutas
+8-step - Protección de rutas - Status Code 401
+e2b35eb7703bd7a8549881c2b7c0ceac274590a8 - Control de roles - Status Code 403
