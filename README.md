@@ -25,7 +25,7 @@
 ### Levantar el proyecto en entorno de desarrollo
     npm run dev
 
-
+## Pasos llevados a cabo en el desarrollo del proyecto
 https://api.escuelajs.co/docs/
 
 - 1-step - setup inicial del proyecto
@@ -41,6 +41,8 @@ https://api.escuelajs.co/docs/
 - 8-step - Protección de rutas - Status Code 401
 - e2b35eb7703bd7a8549881c2b7c0ceac274590a8 - Control de roles - Status Code 403
 - 9-step - Obteniendo data filtrada por rol
+- 10-step - Como enviar emails en nodejs
+- 11-step - Implementando el envío de emails
 
 ## Consideraciones para el frontend
 Al hacer un login en la API nos da la información del usuario, pero también envían el token. Lo más importante es guardar el token porque debe enviarse en todas las peticiones.
@@ -50,3 +52,8 @@ Deberíamos guardar el estado (el token) en algún lugar, se recomienda una cook
 Cada vez que se envíe una petición (request) se debería enviar el token. Si se manejan librerías para hacer requests (ej. axios), hay formas de interceptar la petición y poner el token en el header.
 El token debería tener una expiración, se recomienda que expire en 15-20 minutos, se puede implementar una técnica de refresh token. La API nos puede dar un access token y otro token aparte (refresh token) que nos servirá para generar un nuevo token cuando el access token ya expiró. Se recomienda estar haciendo requests continuamente para no salir de la sesión.
 Se pueden validar permisos, con el token se puede preguntar al backend qué tipo de perfil es, aunque para más seguridad sería mejor hacer un request para obtener el perfil del usuario para no guardar nada en algún lugar.
+
+
+## Envío de emails
+Para el envío de emails se necesita 3 variables de entorno consultables en el archivo .env.example
+El correo que envía los email debe estar registrado como usuario en la base de datos de postgres.
